@@ -23,7 +23,7 @@ DBDATABASE=process-engine
 
 
 
-mkdir $DESTDIR/$DATENOW
+mkdir $DESTDIR/$DATE_NOW
 cd $LOCATE_CAMUNDA
 
 if [ $DBENGINE = "mysql" ]
